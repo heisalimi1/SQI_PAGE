@@ -194,7 +194,7 @@ header {
 
 .tse-container{
     min-height: 50dvh;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 80%;
     margin: auto;
     display: flex;
@@ -233,6 +233,7 @@ header {
     border-radius: 20px;
     margin-top: 45px;
     padding: 35px 0 35px;
+    box-shadow: 0px 30px 20px 20px #EEF7F0;
 }
 
 .soe-inner>img{
@@ -247,7 +248,7 @@ header {
      width: 75%;
     margin: 30px auto;
     /* margin-top: 40px; */
-    border: 1px solid;
+    /* border: 1px solid; */
     /* min-height: 100dvh; */
 }
 
@@ -274,11 +275,12 @@ header {
 .design{
     width: 100%;
     min-height: 70dvh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 45px auto;
     background-color: #E0D5C0;
     border-radius: 20px;
     padding: 35px 0 35px;
+     box-shadow: 0px 30px 20px 20px #EEF7F0;
 }
 
 .design-inner>img{
@@ -323,8 +325,10 @@ header {
     min-height: 70dvh;
     background-color: #EEEFBD;
     padding: 37px 0 37px;
+    border: 1px solid;
     border-radius: 20px;
     margin-top: 40px;
+     box-shadow: 0px 30px 20px 20px #FFF0ED;
 }
 
 .dsa-inner{
@@ -364,7 +368,9 @@ header {
     background-color: #DFD5E8;
     padding: 30px 0 30px;
     margin-top: 30px;
+    border: 1px solid;
     border-radius: 20px;
+     box-shadow: 0px 30px 20px 20px #FFF0ED;
 }
 
 .dwp-inner{
@@ -403,7 +409,45 @@ header {
     background-image: linear-gradient(rgba(20, 18, 48, 0.75), rgba(20, 18, 48, 0.75)), url('https://edu.sqi.ng/wp-content/uploads/2020/08/DSC_9054-scaled.jpg');
     background-size: cover;
     background-repeat: no-repeatx;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
 
+}
+
+.utube{
+    width: 50%;
+}
+
+.utube iframe{
+    width: 80%;
+    margin-left: 50px;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.tat{
+    width: 50%;
+    color: white;
+    margin-right: 30px;
+}
+
+.tat-section >div{
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.tat button{
+    background-color: #00208A;
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.tat h2 {
+    font-size: 48px;
 }
