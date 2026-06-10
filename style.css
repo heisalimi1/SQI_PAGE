@@ -8,9 +8,10 @@
 }
 
 header {
-    box-shadow: 0px 0.16px 0.2px 0.09px;
+    box-shadow: 0px 0.16px 0.2px 0.2px;
     position: relative;
 }
+
  .logo{
     height: 78px;
     justify-content: start;
@@ -103,7 +104,7 @@ header {
 }
 
 .box1{
-    /* width: 80%; */
+    width: 80%;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -185,3 +186,224 @@ header {
     width: 30%;
 }
 
+.top-course{
+    /* width: 80%; */
+    /* border: 1px solid; */
+     /* margin: 100px auto; */
+}
+
+.tse-container{
+    min-height: 50dvh;
+    border: 1px solid;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 130px;
+    flex-direction: row;
+    
+}
+
+.tse-box1{
+    min-height: 70dvh;
+    /* border: 1px solid blue; */
+    width: 47%;
+}
+
+.tse-box2{
+    min-height: 70dvh;
+    /* border: 1px solid red; */
+    width: 47%;
+}
+
+.tse-text h2{
+    font-size: 48px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.tse-text p{
+    color: #979290;
+    margin-bottom: 20px;
+}
+
+.soe{
+    background-color: #D5EAF3;
+    min-height: 80dvh;
+    border-radius: 20px;
+    margin-top: 45px;
+    padding: 35px 0 35px;
+}
+
+.soe-inner>img{
+    width: 100%;
+    margin: auto;
+    /* margin-left: 50px; */
+    border-radius: 20px;
+    
+}
+
+.soe-inner{
+     width: 75%;
+    margin: 30px auto;
+    /* margin-top: 40px; */
+    border: 1px solid;
+    /* min-height: 100dvh; */
+}
+
+.soe-inner h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.soe-inner span{
+    color: #FE6600;
+    font-weight: 600;
+}
+
+.soe-inner p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.soe-inner a{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.design{
+    width: 100%;
+    min-height: 70dvh;
+    border: 1px solid red;
+    margin: 45px auto;
+    background-color: #E0D5C0;
+    border-radius: 20px;
+    padding: 35px 0 35px;
+}
+
+.design-inner>img{
+    width: 100%;
+    margin: auto;
+    /* margin-left: 50px; */
+    border-radius: 20px;
+    
+}
+
+.design-inner{
+     width: 80%;
+    margin: 30px auto;
+    /* margin-top: 40px; */
+    border: 1px solid;
+    /* min-height: 100dvh; */
+     border-radius: 20px;
+}
+
+.design-inner h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.design-inner span{
+    color: #FE6600;
+    font-weight: 600;
+}
+
+.design-inner p{
+    font-size: 14px;
+    font-weight: 500;    
+}
+
+.design-inner a{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dsa{
+    /* border: 1px solid blue;  */
+    min-height: 70dvh;
+    background-color: #EEEFBD;
+    padding: 37px 0 37px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.dsa-inner{
+    width: 80%;
+    margin: 30px auto;
+    /* border: 1px solid; */
+    min-height: 50dvh;
+}
+
+.dsa-inner img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.dsa-inner h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.dsa-inner span{
+    color: #FE6600;
+    font-weight: 600;
+}
+
+.dsa-inner p{
+    font-size: 14px;
+    font-weight: 500;    
+}
+
+.dsa-inner a{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dwp{
+    min-height: 70dvh;
+    background-color: #DFD5E8;
+    padding: 30px 0 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.dwp-inner{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.dwp-inner img{
+    width: 100%;
+}
+
+.dwp-inner h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.dwp-inner span{
+    color: #FE6600;
+    font-weight: 600;
+}
+
+.dwp-inner p{
+    font-size: 14px;
+    font-weight: 500;    
+}
+
+.dwp-inner a{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tat-section{
+    width: 100%;
+    border: 1px solid;
+    height: 90dvh;
+    background-image: linear-gradient(rgba(20, 18, 48, 0.75), rgba(20, 18, 48, 0.75)), url('https://edu.sqi.ng/wp-content/uploads/2020/08/DSC_9054-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeatx;
+    display: flex;
+    justify-content: space-between;
+
+}
