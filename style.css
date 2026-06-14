@@ -9,7 +9,12 @@
 
 header {
     box-shadow: 0px 0.16px 0.2px 0.2px;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 85px;
+    background-color: white;
+    
 }
 
  .logo{
@@ -25,6 +30,7 @@ header {
     justify-content: space-between;
     margin: auto;
     align-items: center;
+
 }
  
  .nav-links{
@@ -45,6 +51,8 @@ header {
 
 .hero-section{
     background-image: linear-gradient(to right, white, #FFFDF3);
+    margin-top: 100px;
+    
 }
 
 .hero-section >div {
@@ -110,6 +118,7 @@ header {
     margin: auto;
     gap: 50px;
     justify-content: space-between;
+    
 }
 
 .box1 img{
@@ -405,17 +414,20 @@ header {
 .tat-section{
     width: 100%;
     border: 1px solid;
-    height: 90dvh;
-    background-image: linear-gradient(rgba(20, 18, 48, 0.75), rgba(20, 18, 48, 0.75)), url('https://edu.sqi.ng/wp-content/uploads/2020/08/DSC_9054-scaled.jpg');
-    background-size: cover;
-    background-repeat: no-repeatx;
+    height: 350px;
+    background: linear-gradient(
+        to right, rgba(76, 0, 130, 0.8),
+                 rgba(10, 25, 80, 0.9)), url('https://edu.sqi.ng/wp-content/uploads/2020/08/DSC_9054-scaled.jpg');
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
     /* display: flex; */
     /* justify-content: space-between; */
 
 }
 
 .utube{
-    width: 50%;
+    width: 40%;
 }
 
 .utube iframe{
@@ -454,4 +466,300 @@ header {
 
 .tat p{
     font-size: 16px;
+}
+
+.our-alumni{
+    width: 80%;
+    /* border: 1px solid; */
+    min-height: 70dvh;
+    margin: auto;
+    color: #3C3C3C;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 100px;
+    /* font-size: 27px; */
+}
+
+.container{
+    display: grid;
+    /* border: 1px solid; */
+    height: 40dvh;
+    width: 85%;
+    margin: 50px auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    align-content: 5px;
+}
+
+.logos{
+    /* border: 1px solid; */
+    height: 60px;
+    width: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.google{
+    background-image: url(./media/google.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.interswitch{
+    background-image: url(./media/Interswitch.png);
+    background-size: contain;
+}
+
+.andela{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/03/Andela-log-landscape-blue-400px.png);
+    background-size: contain;
+}
+
+.microsoft{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/03/Microsoft_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.paystack{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/03/Paystack.png);
+    background-size: contain;
+}
+
+.breweries{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/03/brewery.png);
+}
+
+.wema{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/03/Wema-Bank-Logo.png);
+    background-size: contain;
+}
+
+.credit-clan{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/03/clan-logo.png);
+}
+
+.edozzier{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/03/edozzier.png);
+}
+
+.moneyme{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/03/moneymie.png)
+}
+
+.ng-army{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/03/Nigerian_Army.png);
+}
+
+.nella-credit{
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/03/aella-credit.png);
+}
+
+
+.testimonials{
+    /* border: 1px solid; */
+    width: 80%;
+    min-height: 70dvh;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.testimonials h2{
+    font-size: 48px;
+    color: #333333;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.testimonials a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #333333;
+}
+
+.inner-review{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.sqi-ici{
+    /* border: 1px solid; */
+    width: 29%;
+    height: 50dvh;
+    margin-left: 30px;
+}
+
+.sqi-ici img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50% ;
+    margin-left: 40px;;
+}
+
+.fa-star{
+    font-size: 12px;
+    color: orange;
+    /* margin-left: 10px; */
+}
+
+.sqi-ici >p{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.based{
+    font-weight: 100;
+    font-size: 13px;
+    color: 
+#555555;
+}
+
+.sqi-ici b{
+    color: orange;
+}
+
+.sqi-ici .rate-star{
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+}
+
+.rate-star{
+    display: flex;
+}
+
+.rate-star >div{
+    margin-left: 10px;
+}
+
+.p-by-g{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    
+}
+
+.p-by-g span{
+    font-weight: 500;
+}
+
+.p-by-g .gog{
+    margin-left: 10px;
+}
+
+.sqi-ici .review-us{
+    /* border: 1px solid; */
+    height: 35px;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #3576E9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: none;
+}
+
+.reviews{
+    width: 60%;
+    height: 50dvh;
+    /* border: 1px solid; */
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    overflow-x: scroll;
+}
+
+
+
+.google-logo {
+  position: absolute;
+  top: 24px;      
+  width: 20px;  
+  height: 20px;
+}
+
+.lola-user img{
+    width: 50px;
+}
+
+.test-card {
+  /* width: 50px; */
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+
+.user-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-info h4 {
+  font-size: 14px;
+  color: #1a4aa6; 
+  margin: 0 0 4px 0;
+  font-weight: 600;
+}
+
+.user-info p {
+  font-size: 13px;
+  color: #757575; 
+  margin: 0;
+}
+
+.rating {
+  color: #ff6b35; 
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.review-text p {
+  font-size: 15px;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.test-card {
+  position: relative; 
+  width: 300px;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  /* border: 1px solid; */
+}
+
+.google-logo {
+  /* position: absolute; */
+  top: 24px;       
+  right: 24px;     
+  width: 20px;     
+  height: 20px;
+  
+}
+
+.lola-reviews{
+    /* background-color: #000E42; */
+    height: 200px;
+    /* border: 1px solid; */
+    width: 100%;
+    overflow-y: auto;
+
 }
