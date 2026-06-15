@@ -14,7 +14,11 @@ header {
     top: 0;
     height: 85px;
     background-color: white;
-    
+    z-index: 2;
+}
+
+.img{
+    z-index: 1;
 }
 
  .logo{
@@ -809,10 +813,19 @@ header {
 .faq{
     background-color: #090326;
     width: 100%;
+   
+}
+
+.faq-inner{
+     width: 80%;
     height: 100dvh;
     display: flex;
-    justify-content: space-between;
+    margin: auto;
+    border: 1px solid;
+    /* justify-content: ; */
+    gap: 20px;
     color: white;
+    margin-top: 4px;
 }
 
 .why-container .fa-solid{
@@ -823,6 +836,57 @@ header {
 .fa-readme{
     font-size: 30px;
     color: #666666;
+}
+
+.faq1{
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* border: 1px solid; */
+    /* width: 40%; */
+    height: 200px;
+    margin-top: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq1 p{
+    color: #907D04;
+    
+}
+
+
+.faq1 hr{
+    color: #907D04;
+    height: 2px;
+    border: none;
+    background-color: #907D04;
+    width: 80%;
+}
+
+.questions{
+    color: #907D04;
+    /* font-weight: 200; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.questions h2{
+    font-weight: 200;
+}
+
+.questions p{
+    color: white;
+    font-weight: 200
+}
+.questions hr {
+    color: #907D04;
+    height: 2px;
+    border: none;
+    background-color: #907D04;
+    width: 80%;
 }
 
 
