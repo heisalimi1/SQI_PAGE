@@ -95,6 +95,23 @@ header {
     color: white;
     margin-top: 20px;
     font-weight: bold;
+    position: relative;
+}
+
+.hero-box .fa-angle-right {
+    /* visibility: hidden; */
+    position: absolute;
+    right: 30px;
+    top: 22px;
+    /* transform: translate(-40px); */
+    transition: all 0.4s;
+    opacity: 0;
+    font-size: .85rem;
+}
+
+.hero-box button:hover .fa-angle-right {
+    transform: translate(20px);
+    opacity: 1;
 }
 
 .sec-section >div{
@@ -156,7 +173,22 @@ header {
     display: inline-block;
     margin-top: 30px;
     text-decoration: none;
-    color: black;
+    color: black; 
+    position: relative;
+    transition: all 2s;
+}
+
+.box1 a .fa-angle-right {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+   opacity: 0;
+    transition: all 0.3s;
+}
+
+.box1 a:hover .fa-angle-right {
+    transform: translate(30px);
+    opacity: 1;
 }
 
 .box1 hr{
@@ -467,6 +499,20 @@ header {
     margin-top: 30px;
     color: white;
     font-size: 14px;
+    position: relative;
+}
+
+.tat .fa-solid {
+    position: absolute;
+    top: 19px;
+    right: 30px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.tat button:hover .fa-solid {
+    transform: translate(20px);
+    opacity: 1;
 }
 
 .tat h2 {
@@ -857,6 +903,21 @@ header {
 .faq1 a {
     color: #CF9B02;
     font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+.faq1 .fa-solid {
+    position: absolute;
+    top: 7px;
+    left: 92px;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.faq1 a:hover .fa-solid {
+    transform: translate(20px);
+    opacity: 1;
 }
 
 
@@ -1015,6 +1076,85 @@ article p {
     margin-top: 20px;
 }
 
+.contact-sqi {
+    width: 80%;
+    height: 80dvh;
+    border: 1px solid;
+    margin: 30px auto;
+    display: flex;
+    margin: 50px auto;
+    gap: 30px;
+}
 
+.hello-sqi {
+    width: 20%;
+    min-height: 50dvh;
+    border: 1px solid;
+    overflow-wrap: break-word;
+}
 
+.hello-sqi h2 {
+    font-size: 19px;
+    color:#00208A;
+}
 
+.hello-sqi h4 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.hello-sqi p {
+    display: flex;
+    gap: 20px;
+}
+
+.hello-sqi .fa-brands {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.hello-sqi strong{
+    display: block;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.fa-instagram {
+    margin-top: 10px;
+}
+
+.hello-sqi a {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color:#2EA3F2;
+}
+
+.hello-sqi label {
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-links {
+    width: 20%;
+    min-height: 50dvh;
+    border: 1px solid;
+}
+
+.ogb {
+    width: 20%;
+    min-height: 50dvh;
+    border: 1px solid;
+}
+
+.ibd {
+    width: 20%;
+    min-height: 50dvh;
+    border: 1px solid;
+}
+
+.abk {
+    width: 20%;
+    min-height: 50dvh;
+    border: 1px solid;
+}
