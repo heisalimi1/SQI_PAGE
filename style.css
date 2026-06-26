@@ -1322,12 +1322,21 @@ footer p {
 }
 
 @media screen and (max-width:768px) {
+    body {
+        /* overflow: hidden; */
+    }
+
     .nav-links {
         visibility: hidden;
     }
 
+    .hero-section{
+        width: 100%;
+    }
+
     .hero-section> div{
         flex-direction: column;
+        
     }
 
     .hero-box h1 {
@@ -1483,5 +1492,21 @@ footer p {
     }
     .tat-section button {
         margin-left: 60px;
+    }
+
+    .testimonials p {
+        width: 50%;
+    }
+
+    .reviewa {
+        width: 100%;
+    }
+
+    .why-sqi {
+        flex-direction: column;
+    }
+
+  .why-image{
+        width: 100%;
     }
 }
