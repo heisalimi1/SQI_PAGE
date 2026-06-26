@@ -62,11 +62,13 @@ header .fa-solid {
 .hero-section{
     background-image: linear-gradient(to right, white, #FFFDF3);
     margin-top: 100px;
-    
+    width: 100%;
+    border: 1px solid;
 }
 
 .hero-section >div {
     width: 80%;
+    border: 1px solid;
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -864,7 +866,7 @@ header .fa-solid {
     background-color: #090326;
     width: 100%;
     margin-top: 40px;
-    height: 100dvh;
+    min-height: 100dvh;
    
 }
 
@@ -1321,192 +1323,265 @@ footer p {
     /* background-color: #050044; */
 }
 
-@media screen and (max-width:768px) {
-    body {
-        /* overflow: hidden; */
-    }
 
-    .nav-links {
-        visibility: hidden;
-    }
+/* ===========================
+TABLET
+=========================== */
+@media screen and (max-width: 992px){
 
-    .hero-section{
-        width: 100%;
-    }
+nav{
+    width: 92%;
+}
 
-    .hero-section> div{
-        flex-direction: column;
-        
-    }
+.nav-links{
+    gap: 15px;
+    flex-wrap: wrap;
+}
 
-    .hero-box h1 {
-        font-size: 68px;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 800;
-    }
+.hero-section > div{
+    width: 92%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
-    .allbox .box1 {
-        flex-direction: column;
-    }
+.hero-box{
+    width: 100%;
+}
 
-    .thr-section {
-        flex-direction: column;
-    }
-    .thr-section div{
-        /* flex-direction: column; */
-        width: 100%;
-        margin-top: 20px;
-    }
+.hero-box h1{
+    font-size: 50px;
+}
 
-    .tse-container {
-        flex-direction: column;
-    }
-    .tse-container div {
-        /* flex-direction: column; */
-        width: 100%;
-        padding-top: 0px;
-    }
+.hero-section div img{
+    width: 100%;
+    height: auto;
+}
 
-    .tse-container img {
-        width: 80%;
-        margin-top: 15px;
-        /* margin: auto; */
-    }
+.box1{
+    flex-wrap: wrap;
+}
 
-    .soe-inner{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* margin: auto; */
+.box1 > div{
+    width: 47%;
+}
 
-    }
+.thr-section{
+    width: 92%;
+    flex-wrap: wrap;
+}
 
-    .soe-inner h2 {
-        margin-left: 20px;
-    }
-    .soe-inner p {
-        margin-left: 20px;
-    }
-    .soe-inner a {
-        margin-left: 20px;
-    }
-    .design-inner{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* margin: auto; */
+.thr-section div{
+    width: 48%;
+}
 
-    }
+.tse-container{
+    width: 92%;
+    flex-direction: column;
+}
 
-    .design-inner h2 {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-    .design-inner p {
-        margin-left: 20px;
-    }
-    .design-inner a {
-        margin-left: 20px;
-    }
+.tse-box1,
+.tse-box2{
+    width: 100%;
+}
 
-    .tse-box2 img {
-        margin: auto;
-    }
+.tat-section{
+    height: auto;
+    padding: 60px 0;
+}
 
-    .dsa-inner{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* margin: auto; */
+.tat-section > div{
+    flex-direction: column;
+}
 
-    }
+.utube,
+.tat{
+    width: 100%;
+}
 
-    .dsa-inner h2 {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-    .dsa-inner p {
-        margin-left: 20px;
-    }
-    .dsa-inner a {
-        margin-left: 20px;
-    }
-    .dwp-inner{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* margin: auto; */
+.utube iframe{
+    width: 100%;
+    margin-left: 0;
+}
 
-    }
+.container{
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 0;
+}
 
-    .dwp-inner h2 {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-    .dwp-inner p {
-        margin-left: 20px;
-    }
-    .dwp-inner a {
-        margin-left: 20px;
-    }
+.inner-review{
+    flex-direction: column;
+    gap: 30px;
+}
 
-    .our-alumni h2 {
-        width: 40%;
-    }
+.sqi-ici,
+.reviews-grp{
+    width: 100%;
+    margin-left: 0;
+}
 
-    .our-alumni .container {
-        min-height: 70dvh;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-    }
+.reviewa{
+    width: 320px;
+}
+}
 
-    .tat-section {
-        height: 700px;
-        width: 100%;
-        /* margin: auto; */
-    }
 
-    .tat-section >div {
-        flex-direction: column;
-        justify-content: center;
-        margin: auto;
-    }
-    .tat-section div {
-       width: 100%;
-       margin: auto;
-    }
-    
-    .tat-section .utube {
-        margin: 20px auto;
-    }
-    .tat-section .tat {
-        margin: 20px auto;
-    }
-    .tat-section p {
-        width: 80%;
-        margin: auto;
-    }
+/* ===========================
+PHONE
+=========================== */
+@media screen and (max-width: 768px){
 
-    .tat-section h2 {
-        margin-left: 60px;
-    }
-    .tat-section button {
-        margin-left: 60px;
-    }
+header{
+    height: auto;
+}
 
-    .testimonials p {
-        width: 50%;
-    }
+nav{
+    width: 95%;
+    flex-direction: column;
+    padding: 15px 0;
+}
 
-    .reviewa {
-        width: 100%;
-    }
+.logo{
+    height: 60px;
+}
 
-    .why-sqi {
-        flex-direction: column;
-    }
+.nav-links{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding-top: 15px;
+}
 
-  .why-image{
-        width: 100%;
-    }
+.hero-section{
+    margin-top: 180px;
+}
+
+.hero-section > div{
+    width: 95%;
+    flex-direction: column-reverse;
+}
+
+.hero-box{
+    width: 100%;
+}
+
+.hero-box h1{
+    font-size: 42px;
+    line-height: 1.1;
+}
+
+.hero-box p br{
+    display: none;
+}
+
+.hero-section div img{
+    width: 100%;
+    height: auto;
+}
+
+.allbox,
+.thr-section,
+.tse-container,
+.our-alumni,
+.testimonials{
+    width: 95%;
+}
+
+.allbox h1,
+.tse-text h2,
+.testimonials h2,
+.tat h2{
+    font-size: 34px;
+}
+
+.box1{
+    flex-direction: column;
+}
+
+.box1 > div{
+    width: 100%;
+}
+
+.thr-section{
+    flex-direction: column;
+}
+
+.thr-section div{
+    width: 100%;
+}
+
+.tse-container{
+    padding-top: 50px;
+}
+
+.soe-inner,
+.design-inner,
+.dsa-inner,
+.dwp-inner{
+    width: 90%;
+}
+
+.container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    height: auto;
+}
+
+.tat{
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+.tat p br{
+    display: none;
+}
+
+.reviews-grp{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.reviewa{
+    width: 100%;
+    min-width: 300px;
+}
+
+.sqi-ici{
+    height: auto;
+}
+}
+
+
+/* ===========================
+SMALL PHONE
+=========================== */
+@media screen and (max-width: 480px){
+
+.hero-box h1{
+    font-size: 32px;
+}
+
+.hero-box button,
+.tat button{
+    width: 100%;
+}
+
+.container{
+    grid-template-columns: 1fr;
+}
+
+.allbox h1,
+.tse-text h2,
+.testimonials h2{
+    font-size: 28px;
+}
+
+.tat h2{
+    font-size: 30px;
+}
+
+.utube iframe{
+    height: 220px;
+}
 }
