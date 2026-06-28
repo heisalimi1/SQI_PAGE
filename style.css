@@ -656,7 +656,7 @@ header .fa-solid {
 }
 
 .sqi-ici{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 29%;
     height: 50dvh;
     margin-left: 30px;
@@ -1332,7 +1332,7 @@ footer p {
     /* background-color: #050044; */
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     body {
         overflow-x: hidden;
     }
@@ -1594,7 +1594,21 @@ footer p {
     }
 
     .get-ready { 
-        height: 100dvh;
+        height: 60dvh;
+    }
+
+    .started {
+        /* border: 1px solid; */
+        padding-left: 0;
+        margin-left: 0;
+        margin: auto;
+        width: 80%;
+        
+    }
+
+    .started h2 {
+        font-size: 30px;
+        width: 100%;
     }
 
     .news-content {
@@ -1624,5 +1638,64 @@ footer p {
     footer {
         align-items: center;
     }
+
+}
+
+@media (max-width:426px) {
+    .testimonials {
+        /* height:400dvh; */
+        flex-direction: column;
+    }
+    .inner-review {
+        /* border: 1px solid; */
+        flex-direction: column;
+    }
+    .inner-review div{
+        /* border: 1px solid; */
+        /* flex-direction: column; */
+        width: 100%;
+    }
+
+    .reviewa p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .faq {
+        height: 185dvh;
+    }
+
+    .get-ready {
+        height: 80dvh;
+    }
+
+    .started {
+        width: 80%;
+        margin: auto;
+    }
+
+    .questions {
+        width: 80%;
+        /* margin-right: auto; */
+        /* border: 1px solid; */
+        padding: 0;
+    }
+
+    .news {
+        height: 400dvh;
+    }
+
+    .news-content {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-sqi {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-sqi div {
+        width: 100%;
+    }
+
 
 }
