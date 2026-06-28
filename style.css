@@ -1637,6 +1637,7 @@ footer p {
 
     footer {
         align-items: center;
+        height: 50px;
     }
 
 }
@@ -1699,6 +1700,10 @@ footer p {
 
     .contact-sqi div {
         width: 100%;
+    }
+
+    footer {
+        height: 70px;
     }
 
 
