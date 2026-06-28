@@ -85,7 +85,7 @@ header .fa-solid {
 
 .hero-box{
     margin: auto;
-    width: 80%;
+    width: 100%;
 }
 
 .hero-box h1{
@@ -1642,6 +1642,10 @@ footer p {
 }
 
 @media (max-width:426px) {
+    .hero-box h1 {
+    font-size: 38px;
+    }
+
     .testimonials {
         /* height:400dvh; */
         flex-direction: column;
